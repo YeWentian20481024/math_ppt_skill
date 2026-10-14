@@ -1,0 +1,14 @@
+.build/
+__pycache__/
+*.pyc
+*.aux
+*.log
+*.nav
+*.out
+*.snm
+*.toc
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+.DS_Store
+Thumbs.db

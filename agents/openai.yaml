@@ -1,0 +1,4 @@
+interface:
+  display_name: "Math Research Presentations"
+  short_description: "Mathematical talks, proof sketches, and numerical evidence"
+  default_prompt: "Use $math-research-presentation to build a progressive mathematical talk, check assumptions and evidence, and verify the delivered slides."
