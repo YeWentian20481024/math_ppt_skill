@@ -21,7 +21,7 @@
 |---|---|
 | [SKILL.md](SKILL.md) | AI 助手读取的主规则 |
 | [references/mathematical-argument.md](references/mathematical-argument.md) | 定理、证明、渐近规律与公式核对 |
-| [references/numerical-evidence.md](references/numerical-evidence.md) | 数值实验的设置、误差和公平比较 |
+| [references/evidence-and-comparisons.md](references/evidence-and-comparisons.md) | 实验与比较结果的上下文、指标和解释边界 |
 | [references/revision-and-delivery.md](references/revision-and-delivery.md) | 批注修改、呈现、检查与公开发布 |
 | [examples/](examples/README.md) | 独立编写的改前/改后示例、Beamer 源码、PDF 和讲稿 |
 
@@ -31,7 +31,7 @@
 
 ```text
 请用 $math-research-presentation 帮我整理这份数学报告。
-听众了解基础数值分析，报告 20 分钟。请保留 Beamer 格式，
+听众具有该主题的基础知识，报告 20 分钟。请保留 Beamer 格式，
 先检查论证顺序，再完成修改，并给出中文讲稿。
 ```
 
@@ -55,7 +55,9 @@
 
 ## 原则与可配置项
 
-科研准确性优先于叙事包装。内部停止不等于独立准确性；漂亮的图不替代明确的问题定义；成功的局部测试不等于整个方法已经验证。
+科研准确性优先于叙事包装。清楚区分假设、结论和证据；漂亮的图不替代明确的问题定义；局部观察不自动支持更广泛的结论。
+
+正文和配套规则面向不同数学主题，不预设某个科研领域、方程、算法或实验流程。它们指导如何呈现使用者提供的研究内容，不默认设计新实验或替研究者作出未经证实的结论。具体数学素材集中在 `examples/`，用于展示 PPT 的编辑决定。
 
 个人偏好应由使用者另行提供，例如语言、配色、导航、讲稿和时长。本公开版本不包含任何人的私人偏好档案、对话记录、机构身份或未发表研究数据。示例使用独立写出的标准数学问题，没有复制私人演示文件。
 
@@ -63,7 +65,7 @@
 
 ## English overview
 
-This skill helps an assistant create, revise, and review mathematical research talks. It emphasizes dependency-driven exposition, explicit assumptions, meaningful proof sketches, interpretable numerical evidence, and verification of the delivered artifact. It preserves the user's format and does not require a fixed visual theme or another skill.
+This skill helps an assistant create, revise, and review mathematical research talks. It emphasizes dependency-driven exposition, explicit assumptions, meaningful proof sketches, clearly presented evidence, and verification of the delivered artifact. Its guidance is field-independent; concrete mathematical content is confined to the examples. It preserves the user's format and does not require a fixed visual theme or another skill.
 
 The examples are independent educational constructions, not anonymized research measurements. No personal conversation history or unpublished project data is included.
 
